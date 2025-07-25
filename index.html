@@ -4,26 +4,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment two</title>
+    <title>Assignment Two</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="navbar">
-        <div class="logo">LOGO</div>
-        <button class="btn">Sign Up</button>
-    </header>
-    <section class="hero">
-        <h1>Cool Dark UI Template for<br>Webflow Agencies!</h1>
-        <button class="btn">Stay Focused</button>
-    </section>
-    <section class="action">
-        <div class="action-text">
-            <h2>See It in Action</h2>
-            <p>Explore the live preview and imagine your brand in this bold new look.</p>
-            <button class="btn">Launch Live Preview</button>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Feuget Logo">
+            </div>
+            <div class="nav-menu">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About us</a>
+                <div class="cart">
+                    <span>🛒</span>
+                    <span class="cart-text">Cart ($56)</span>
+                </div>
+            </div>
+            <div class="mobile-cart">
+                <span>🛒</span>
+                <span>Cart ($56)</span>
+            </div>
         </div>
-        <div class="action-img">
-            <img src="assets/wc-big.png" alt="Webflow Conference Preview" />
+    </nav>
+    <section class="banner">
+        <div class="banner-container">
+            <div class="banner-content">
+                <h1>ALWAYS <span class="orange">FRESH</span><br><span class="orange">FLOWERS</span></h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+            </div>
+            <div class="banner-image">
+                <img src="assets/hero-flower.png" alt="Fresh Flowers">
+            </div>
         </div>
     </section>
+    <section class="plants-section">
+        <div class="container">
+            <h2>Our <span class="orange">Plants</span></h2>
+            <p class="subtitle">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                roses to exotic blooms, we offer a wide variety of fresh flowers.</p>
+
+            <div class="plants-grid">
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+                <div class="plant-card">
+                    <img src="assets/sample-flower-image.png" alt="Lily Blossom">
+                    <h3>Lily Blossom</h3>
+                    <p class="price">20 USD</p>
+                    <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="plant-lover-section">
+        <div class="container">
+            <div class="plant-lover-content">
+                <div class="plant-lover-image">
+                    <img src="assets/flower-store.png" alt="Flower Store">
+                    <div class="trusted-badge">
+                        <img src="assets/trusted-badge.png" alt="Trusted Seller Badge">
+                    </div>
+                </div>
+                <div class="plant-lover-text">
+                    <h2>Flower & Plants <br> Lover</span></h2>
+                    <ul>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deals-section">
+        <div class="container">
+            <h2><span class="orange">Latest</span> Deals</h2>
+            <p class="subtitle">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="deals-grid">
+                <div class="deal-card deal-small">
+                    <img src="assets/deal-bloom.png" alt="Bloom Plant Deal">
+                    <div class="deal-overlay">
+                        <h3>60% Off | Bloom Plant</h3>
+                        <button class="shop-now">Shop Now</button>
+                    </div>
+                </div>
+                <div class="deal-card deal-small">
+                    <img src="assets/deal-ana.png" alt="Ana Plant Deal">
+                    <div class="deal-overlay">
+                        <h3>30% Off | Ana Plant</h3>
+                        <button class="shop-now">Shop Now</button>
+                    </div>
+                </div>
+                <div class="deal-card deal-large">
+                    <img src="assets/deal-zabo.png" alt="Zabo Plant Deal">
+                    <div class="deal-overlay">
+                        <h3>25% Off | Zabo Plant</h3>
+                        <button class="shop-now">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join-section">
+        <div class="container">
+            <h2>Join the colorful Bunch</h2>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Your email">
+                <button type="submit">SUBSCRIBE</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="Feuget Logo">
+                    </div>
+                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Help Center</a>
+                </div>
+                <div class="footer-column social-column">
+                    <div class="social-icons">
+                        <a href="#"><img src="assets/icon-linkedin.png" alt="LinkedIn"></a>
+                        <a href="#"><img src="assets/icon-twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="assets/icon-facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="assets/icon-youtube.png" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function addToCart() {
+            alert("Flower Added to Cart");
+        }
+        const trustedBadge = document.querySelector('.trusted-badge img');
+        if (trustedBadge) {
+            trustedBadge.style.animation = 'spin 3s linear infinite';
+        }
+    </script>
 </body>
+
 </html>
